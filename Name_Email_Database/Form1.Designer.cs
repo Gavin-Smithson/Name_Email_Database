@@ -98,7 +98,7 @@
             this.lookupButton.Location = new System.Drawing.Point(20, 164);
             this.lookupButton.Name = "lookupButton";
             this.lookupButton.Size = new System.Drawing.Size(75, 32);
-            this.lookupButton.TabIndex = 2;
+            this.lookupButton.TabIndex = 1;
             this.lookupButton.Text = "Lookup";
             this.lookupButton.UseVisualStyleBackColor = false;
             this.lookupButton.Click += new System.EventHandler(this.lookupButton_Click);
@@ -147,7 +147,7 @@
             this.updateButton.Location = new System.Drawing.Point(172, 164);
             this.updateButton.Name = "updateButton";
             this.updateButton.Size = new System.Drawing.Size(75, 32);
-            this.updateButton.TabIndex = 2;
+            this.updateButton.TabIndex = 3;
             this.updateButton.Text = "Update";
             this.updateButton.UseVisualStyleBackColor = false;
             this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
@@ -190,7 +190,7 @@
             this.createUpdateEmailTextBox.Location = new System.Drawing.Point(6, 100);
             this.createUpdateEmailTextBox.Name = "createUpdateEmailTextBox";
             this.createUpdateEmailTextBox.Size = new System.Drawing.Size(250, 23);
-            this.createUpdateEmailTextBox.TabIndex = 0;
+            this.createUpdateEmailTextBox.TabIndex = 1;
             // 
             // createUpdateNameTextBox
             // 
@@ -209,7 +209,7 @@
             this.exitButton.Location = new System.Drawing.Point(181, 351);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(204, 32);
-            this.exitButton.TabIndex = 2;
+            this.exitButton.TabIndex = 0;
             this.exitButton.Text = "Save and exit";
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
